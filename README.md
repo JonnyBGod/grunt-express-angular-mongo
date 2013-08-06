@@ -18,13 +18,12 @@ The goal of this project was to provide a working yeoman-based SPA (single page 
 * Nodejs + NPM
 * You must have yeoman (including grunt and bower) installed.  This project assumes 1.0rc4 or later of yeoman `npm install -g yo`
 
-## Instalation
+## Installation
 `yo yoeman-express-angular-fullstack`
 
 ## Getting Started
 
-* Install all denpendencies.
-
+* Install all denpendencies
 ```bash
 $ npm install
 $ bower install
@@ -44,7 +43,7 @@ $ bower install
 
 * Build for production `grunt build`
 
-* Release `grunt bump`
+* Release
 ```bash
 $ grunt bump
 $ //For now you have to comit yourself the full project
