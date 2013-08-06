@@ -1,0 +1,20 @@
+{
+  "name": "ImoGlobe",
+  "version": "0.0.4",
+  "main": "server/server.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components",
+    "public/components"
+  ],
+  "dependencies": {
+    "jquery": "latest",
+    "angularjs-bower": "latest",
+    "bootstrap": "latest",
+    "font-awesome": "latest",
+    "requirejs-domready": "latest",
+    "modernizr": "latest",
+    "requirejs": "latest"
+  }
+}

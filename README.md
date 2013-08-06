@@ -25,8 +25,10 @@ The goal of this project was to provide a working yeoman-based SPA (single page 
 
 * Install all denpendencies.
 
-`npm install`
-`bower install`
+```bash
+$ npm install
+$ bower install
+```
 
 * Change all UPPER_CASE_SNAKE_NAMES (ids, passwords, names, etc..)
 
@@ -43,6 +45,13 @@ The goal of this project was to provide a working yeoman-based SPA (single page 
 * Build for production `grunt build`
 
 * Release `grunt bump`
+```bash
+$ grunt bump
+$ //For now you have to comit yourself the full project
+$ git add .
+$ git commit -m your message
+$ git push origin
+```
 
 ## Some notes
 
