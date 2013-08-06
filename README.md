@@ -49,7 +49,7 @@ $ bower install
 $ grunt bump
 $ //For now you have to comit yourself the full project
 $ git add .
-$ git commit -m your message
+$ git commit -m 'your message'
 $ git push origin
 ```
 
