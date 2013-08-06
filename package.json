@@ -1,7 +1,7 @@
 {
   "name": "yoeman-express-angular-fullstack",
   "description": "Bootstrap app with Grunt, Bower, Expressjs, Angularjs, Requirejs + goodies",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Joao Ribeiro",
   "private": true,
   "dependencies": {
