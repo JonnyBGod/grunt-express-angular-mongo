@@ -1,5 +1,5 @@
 {
-  "name": "grunt-express-angular-fullstack",
+  "name": "grunt-express-angular-mongo",
   "version": "0.0.5",
   "main": "server/server.js",
   "ignore": [

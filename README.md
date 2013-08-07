@@ -1,7 +1,7 @@
-grunt-express-angular-fullstack
+grunt-express-angular-mongo
 ================================
 
-Bootstrap app with Grunt, Bower, Expressjs, Angularjs, Requirejs + goodies
+Bootstrap app with Grunt, Bower, Expressjs, Angularjs, Requirejs, MongoDB + goodies
 
 ## Goals
 
@@ -19,7 +19,7 @@ The goal of this project was to provide a working yeoman-based SPA (single page 
 * You must have yeoman (including grunt and bower) installed.  This project assumes 1.0rc4 or later of yeoman `npm install -g yo`
 
 ## Installation
-* Clone the git repository: `git clone https://github.com/JonnyBGod/grunt-express-angular-fullstack _your_local_directory_name_`
+* Clone the git repository: `git clone https://github.com/JonnyBGod/grunt-express-angular-mongo _your_local_directory_name_`
 * `cd _your_local_directory_name_`
 
 ## Getting Started
@@ -47,11 +47,13 @@ $ bower install
 * Release
 ```bash
 $ grunt bump
-$ //For now you have to comit yourself the full project
+$ //For now you have to commit yourself the full project
 $ git add .
 $ git commit -m 'your message'
 $ git push origin
 ```
+
+* Production server launch `NODE_ENV=production node server`
 
 ## Some notes
 

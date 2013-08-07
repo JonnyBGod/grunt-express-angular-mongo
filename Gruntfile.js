@@ -357,7 +357,7 @@ module.exports = function (grunt) {
     nodemon: {
       dev: {
         options: {
-          file: './server/server.js',
+          file: 'server.js',
           args: ['development'],
           watchedExtensions: ['js'],
           watchedFolders: ['server'],
@@ -371,8 +371,8 @@ module.exports = function (grunt) {
       },
       prod: {
         options: {
-          file: './server/server.js',
-          args: ['development'],
+          file: 'server.js',
+          args: ['production'],
           watchedExtensions: ['js'],
           watchedFolders: ['server'],
           debug: false,
