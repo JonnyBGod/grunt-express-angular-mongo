@@ -1,0 +1,262 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'publish',
+1 verbose cli   '--tag',
+1 verbose cli   'Release v%VERSION%' ]
+2 info using npm@1.3.5
+3 info using node@v0.10.15
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/joaoribeiro/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/tk/w8fbgb9918d3snhhw7r78d9h0000gn/T/npm-58657-5QsyLxFj/1375889969002-0.7046674445737153/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/tk/w8fbgb9918d3snhhw7r78d9h0000gn/T/npm-58657-5QsyLxFj/1375889969002-0.7046674445737153/tmp.tgz
+12 verbose folder .
+13 info prepublish grunt-express-angular-mongo@0.0.8
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/joaoribeiro/.npm/1f1177db-tar.lock
+16 silly lockFile fad2801b-69002-0-7046674445737153-tmp-tgz tar:///var/folders/tk/w8fbgb9918d3snhhw7r78d9h0000gn/T/npm-58657-5QsyLxFj/1375889969002-0.7046674445737153/tmp.tgz
+17 verbose lock tar:///var/folders/tk/w8fbgb9918d3snhhw7r78d9h0000gn/T/npm-58657-5QsyLxFj/1375889969002-0.7046674445737153/tmp.tgz /Users/joaoribeiro/.npm/fad2801b-69002-0-7046674445737153-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile fad2801b-69002-0-7046674445737153-tmp-tgz tar:///var/folders/tk/w8fbgb9918d3snhhw7r78d9h0000gn/T/npm-58657-5QsyLxFj/1375889969002-0.7046674445737153/tmp.tgz
+21 silly lockFile fad2801b-69002-0-7046674445737153-tmp-tgz tar:///var/folders/tk/w8fbgb9918d3snhhw7r78d9h0000gn/T/npm-58657-5QsyLxFj/1375889969002-0.7046674445737153/tmp.tgz
+22 verbose tar unpack /var/folders/tk/w8fbgb9918d3snhhw7r78d9h0000gn/T/npm-58657-5QsyLxFj/1375889969002-0.7046674445737153/tmp.tgz
+23 silly lockFile 97c71ff9-69002-0-7046674445737153-package tar:///var/folders/tk/w8fbgb9918d3snhhw7r78d9h0000gn/T/npm-58657-5QsyLxFj/1375889969002-0.7046674445737153/package
+24 verbose lock tar:///var/folders/tk/w8fbgb9918d3snhhw7r78d9h0000gn/T/npm-58657-5QsyLxFj/1375889969002-0.7046674445737153/package /Users/joaoribeiro/.npm/97c71ff9-69002-0-7046674445737153-package.lock
+25 silly lockFile fad2801b-69002-0-7046674445737153-tmp-tgz tar:///var/folders/tk/w8fbgb9918d3snhhw7r78d9h0000gn/T/npm-58657-5QsyLxFj/1375889969002-0.7046674445737153/tmp.tgz
+26 verbose lock tar:///var/folders/tk/w8fbgb9918d3snhhw7r78d9h0000gn/T/npm-58657-5QsyLxFj/1375889969002-0.7046674445737153/tmp.tgz /Users/joaoribeiro/.npm/fad2801b-69002-0-7046674445737153-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm modified mode [ 'package.json', 511, 493 ]
+30 silly gunzTarPerm extractEntry README.md
+31 silly gunzTarPerm extractEntry LICENSE
+32 silly gunzTarPerm extractEntry Gruntfile.js
+33 silly gunzTarPerm extractEntry server.js
+34 silly gunzTarPerm extractEntry bower.json
+35 silly gunzTarPerm extractEntry .jshintrc
+36 silly gunzTarPerm extractEntry .editorconfig
+37 silly gunzTarPerm extractEntry .gitattributes
+38 silly gunzTarPerm extractEntry app/.buildignore
+39 silly gunzTarPerm extractEntry app/.htaccess
+40 silly gunzTarPerm extractEntry app/424.html
+41 silly gunzTarPerm modified mode [ 'app/424.html', 511, 493 ]
+42 silly gunzTarPerm extractEntry app/favicon.ico
+43 silly gunzTarPerm extractEntry app/robots.txt
+44 silly gunzTarPerm extractEntry app/scripts/analytics.js
+45 silly gunzTarPerm modified mode [ 'app/scripts/analytics.js', 511, 493 ]
+46 silly gunzTarPerm extractEntry app/scripts/app.js
+47 silly gunzTarPerm modified mode [ 'app/scripts/app.js', 511, 493 ]
+48 silly gunzTarPerm extractEntry app/scripts/controllers.js
+49 silly gunzTarPerm modified mode [ 'app/scripts/controllers.js', 511, 493 ]
+50 silly gunzTarPerm extractEntry app/scripts/directives.js
+51 silly gunzTarPerm modified mode [ 'app/scripts/directives.js', 511, 493 ]
+52 silly gunzTarPerm extractEntry app/scripts/filters.js
+53 silly gunzTarPerm modified mode [ 'app/scripts/filters.js', 511, 493 ]
+54 silly gunzTarPerm extractEntry app/scripts/libs.js
+55 silly gunzTarPerm extractEntry app/scripts/main.js
+56 silly gunzTarPerm extractEntry app/scripts/services.js
+57 silly gunzTarPerm modified mode [ 'app/scripts/services.js', 511, 493 ]
+58 silly gunzTarPerm extractEntry app/styles/app.css
+59 silly gunzTarPerm extractEntry app/styles/app.scss
+60 silly gunzTarPerm extractEntry compass.rb
+61 silly gunzTarPerm extractEntry server/config.js
+62 silly gunzTarPerm extractEntry server/server.js
+63 silly gunzTarPerm extractEntry server/controllers/passport.js
+64 silly gunzTarPerm extractEntry server/controllers/users.js
+65 silly gunzTarPerm extractEntry server/models/user.js
+66 silly gunzTarPerm extractEntry server/private.key
+67 silly gunzTarPerm extractEntry server/public.pem
+68 silly gunzTarPerm extractEntry server/routes/api.js
+69 silly gunzTarPerm extractEntry server/routes/auth.js
+70 silly gunzTarPerm extractEntry server/routes/index.js
+71 silly gunzTarPerm extractEntry server/routes/socket.js
+72 silly gunzTarPerm extractEntry server/views/404.html
+73 silly gunzTarPerm extractEntry server/views/error.html
+74 silly gunzTarPerm extractEntry server/views/index.html
+75 silly gunzTarPerm extractEntry .bowerrc
+76 silly lockFile 97c71ff9-69002-0-7046674445737153-package tar:///var/folders/tk/w8fbgb9918d3snhhw7r78d9h0000gn/T/npm-58657-5QsyLxFj/1375889969002-0.7046674445737153/package
+77 silly lockFile 97c71ff9-69002-0-7046674445737153-package tar:///var/folders/tk/w8fbgb9918d3snhhw7r78d9h0000gn/T/npm-58657-5QsyLxFj/1375889969002-0.7046674445737153/package
+78 silly lockFile fad2801b-69002-0-7046674445737153-tmp-tgz tar:///var/folders/tk/w8fbgb9918d3snhhw7r78d9h0000gn/T/npm-58657-5QsyLxFj/1375889969002-0.7046674445737153/tmp.tgz
+79 silly lockFile fad2801b-69002-0-7046674445737153-tmp-tgz tar:///var/folders/tk/w8fbgb9918d3snhhw7r78d9h0000gn/T/npm-58657-5QsyLxFj/1375889969002-0.7046674445737153/tmp.tgz
+80 verbose tar pack [ '/Users/joaoribeiro/.npm/grunt-express-angular-mongo/0.0.8/package.tgz',
+80 verbose tar pack   '/var/folders/tk/w8fbgb9918d3snhhw7r78d9h0000gn/T/npm-58657-5QsyLxFj/1375889969002-0.7046674445737153/package' ]
+81 verbose tarball /Users/joaoribeiro/.npm/grunt-express-angular-mongo/0.0.8/package.tgz
+82 verbose folder /var/folders/tk/w8fbgb9918d3snhhw7r78d9h0000gn/T/npm-58657-5QsyLxFj/1375889969002-0.7046674445737153/package
+83 silly lockFile 97c71ff9-69002-0-7046674445737153-package tar:///var/folders/tk/w8fbgb9918d3snhhw7r78d9h0000gn/T/npm-58657-5QsyLxFj/1375889969002-0.7046674445737153/package
+84 verbose lock tar:///var/folders/tk/w8fbgb9918d3snhhw7r78d9h0000gn/T/npm-58657-5QsyLxFj/1375889969002-0.7046674445737153/package /Users/joaoribeiro/.npm/97c71ff9-69002-0-7046674445737153-package.lock
+85 silly lockFile edba2fd1--angular-mongo-0-0-8-package-tgz tar:///Users/joaoribeiro/.npm/grunt-express-angular-mongo/0.0.8/package.tgz
+86 verbose lock tar:///Users/joaoribeiro/.npm/grunt-express-angular-mongo/0.0.8/package.tgz /Users/joaoribeiro/.npm/edba2fd1--angular-mongo-0-0-8-package-tgz.lock
+87 silly lockFile 97c71ff9-69002-0-7046674445737153-package tar:///var/folders/tk/w8fbgb9918d3snhhw7r78d9h0000gn/T/npm-58657-5QsyLxFj/1375889969002-0.7046674445737153/package
+88 silly lockFile 97c71ff9-69002-0-7046674445737153-package tar:///var/folders/tk/w8fbgb9918d3snhhw7r78d9h0000gn/T/npm-58657-5QsyLxFj/1375889969002-0.7046674445737153/package
+89 silly lockFile edba2fd1--angular-mongo-0-0-8-package-tgz tar:///Users/joaoribeiro/.npm/grunt-express-angular-mongo/0.0.8/package.tgz
+90 silly lockFile edba2fd1--angular-mongo-0-0-8-package-tgz tar:///Users/joaoribeiro/.npm/grunt-express-angular-mongo/0.0.8/package.tgz
+91 silly lockFile d88d0cd7-ress-angular-mongo-0-0-8-package /Users/joaoribeiro/.npm/grunt-express-angular-mongo/0.0.8/package
+92 verbose lock /Users/joaoribeiro/.npm/grunt-express-angular-mongo/0.0.8/package /Users/joaoribeiro/.npm/d88d0cd7-ress-angular-mongo-0-0-8-package.lock
+93 silly lockFile d88d0cd7-ress-angular-mongo-0-0-8-package /Users/joaoribeiro/.npm/grunt-express-angular-mongo/0.0.8/package
+94 silly lockFile d88d0cd7-ress-angular-mongo-0-0-8-package /Users/joaoribeiro/.npm/grunt-express-angular-mongo/0.0.8/package
+95 verbose tar unpack /Users/joaoribeiro/.npm/grunt-express-angular-mongo/0.0.8/package.tgz
+96 silly lockFile 6afd6d74-ress-angular-mongo-0-0-8-package tar:///Users/joaoribeiro/.npm/grunt-express-angular-mongo/0.0.8/package
+97 verbose lock tar:///Users/joaoribeiro/.npm/grunt-express-angular-mongo/0.0.8/package /Users/joaoribeiro/.npm/6afd6d74-ress-angular-mongo-0-0-8-package.lock
+98 silly lockFile edba2fd1--angular-mongo-0-0-8-package-tgz tar:///Users/joaoribeiro/.npm/grunt-express-angular-mongo/0.0.8/package.tgz
+99 verbose lock tar:///Users/joaoribeiro/.npm/grunt-express-angular-mongo/0.0.8/package.tgz /Users/joaoribeiro/.npm/edba2fd1--angular-mongo-0-0-8-package-tgz.lock
+100 silly gunzTarPerm modes [ '755', '644' ]
+101 silly gunzTarPerm extractEntry package.json
+102 silly gunzTarPerm extractEntry README.md
+103 silly gunzTarPerm extractEntry LICENSE
+104 silly gunzTarPerm extractEntry Gruntfile.js
+105 silly gunzTarPerm extractEntry server.js
+106 silly gunzTarPerm extractEntry .jshintrc
+107 silly gunzTarPerm extractEntry .editorconfig
+108 silly gunzTarPerm extractEntry app/.buildignore
+109 silly gunzTarPerm extractEntry app/.htaccess
+110 silly gunzTarPerm extractEntry app/424.html
+111 silly gunzTarPerm extractEntry app/favicon.ico
+112 silly gunzTarPerm extractEntry app/robots.txt
+113 silly gunzTarPerm extractEntry app/scripts/analytics.js
+114 silly gunzTarPerm extractEntry app/scripts/app.js
+115 silly gunzTarPerm extractEntry app/scripts/controllers.js
+116 silly gunzTarPerm extractEntry app/scripts/directives.js
+117 silly gunzTarPerm extractEntry app/scripts/filters.js
+118 silly gunzTarPerm extractEntry app/scripts/libs.js
+119 silly gunzTarPerm extractEntry app/scripts/main.js
+120 silly gunzTarPerm extractEntry app/scripts/services.js
+121 silly gunzTarPerm extractEntry app/styles/app.css
+122 silly gunzTarPerm extractEntry app/styles/app.scss
+123 silly gunzTarPerm extractEntry bower.json
+124 silly gunzTarPerm extractEntry compass.rb
+125 silly gunzTarPerm extractEntry .gitattributes
+126 silly gunzTarPerm extractEntry server/config.js
+127 silly gunzTarPerm extractEntry server/server.js
+128 silly gunzTarPerm extractEntry server/controllers/passport.js
+129 silly gunzTarPerm extractEntry server/controllers/users.js
+130 silly gunzTarPerm extractEntry server/models/user.js
+131 silly gunzTarPerm extractEntry server/private.key
+132 silly gunzTarPerm extractEntry server/public.pem
+133 silly gunzTarPerm extractEntry server/routes/api.js
+134 silly gunzTarPerm extractEntry server/routes/auth.js
+135 silly gunzTarPerm extractEntry server/routes/index.js
+136 silly gunzTarPerm extractEntry server/routes/socket.js
+137 silly gunzTarPerm extractEntry server/views/404.html
+138 silly gunzTarPerm extractEntry server/views/error.html
+139 silly gunzTarPerm extractEntry server/views/index.html
+140 silly gunzTarPerm extractEntry .bowerrc
+141 silly lockFile 6afd6d74-ress-angular-mongo-0-0-8-package tar:///Users/joaoribeiro/.npm/grunt-express-angular-mongo/0.0.8/package
+142 silly lockFile 6afd6d74-ress-angular-mongo-0-0-8-package tar:///Users/joaoribeiro/.npm/grunt-express-angular-mongo/0.0.8/package
+143 silly lockFile edba2fd1--angular-mongo-0-0-8-package-tgz tar:///Users/joaoribeiro/.npm/grunt-express-angular-mongo/0.0.8/package.tgz
+144 silly lockFile edba2fd1--angular-mongo-0-0-8-package-tgz tar:///Users/joaoribeiro/.npm/grunt-express-angular-mongo/0.0.8/package.tgz
+145 verbose chmod /Users/joaoribeiro/.npm/grunt-express-angular-mongo/0.0.8/package.tgz 644
+146 verbose chown /Users/joaoribeiro/.npm/grunt-express-angular-mongo/0.0.8/package.tgz [ 501, 20 ]
+147 silly lockFile 3a52ce78- .
+148 silly lockFile 3a52ce78- .
+149 silly publish { name: 'grunt-express-angular-mongo',
+149 silly publish   description: 'Bootstrap app with Grunt, Bower, Expressjs, Angularjs, Requirejs, MongoDB + goodies',
+149 silly publish   keywords:
+149 silly publish    [ 'grunt',
+149 silly publish      'bower',
+149 silly publish      'express',
+149 silly publish      'angular',
+149 silly publish      'requirejs',
+149 silly publish      'mongo',
+149 silly publish      'mean stack',
+149 silly publish      'passport',
+149 silly publish      'socketio',
+149 silly publish      'spdy' ],
+149 silly publish   version: '0.0.8',
+149 silly publish   author: { name: 'Joao Ribeiro' },
+149 silly publish   private: true,
+149 silly publish   dependencies:
+149 silly publish    { 'connect-flash': '~0.1.1',
+149 silly publish      'connect-mongostore': '~0.0.7',
+149 silly publish      express: '~3.2.6',
+149 silly publish      ejs: '~0.8.4',
+149 silly publish      'ejs-locals': '~1.0.2',
+149 silly publish      i18n: '~0.4.1',
+149 silly publish      mongoose: '~3.6.15',
+149 silly publish      'mongoose-double': '~0.0.1',
+149 silly publish      passport: '~0.1.17',
+149 silly publish      'passport-local': '~0.1.6',
+149 silly publish      'passport-facebook': '~0.1.5',
+149 silly publish      'passport-twitter': '~0.1.5',
+149 silly publish      'passport-google-oauth': '~0.1.5',
+149 silly publish      'passport-linkedin-oauth2': '~1.0.1',
+149 silly publish      'passport-foursquare': '~0.1.3',
+149 silly publish      'passport-yahoo-oauth': '~0.1.2',
+149 silly publish      'passport-windowslive': '~0.1.3',
+149 silly publish      'passport.socketio': '~1.2.1',
+149 silly publish      spdy: '~1.10.1',
+149 silly publish      'socket.io': '~0.9.16',
+149 silly publish      requirejs: '~2.1.8',
+149 silly publish      'connect-livereload': '~0.2.0' },
+149 silly publish   devDependencies:
+149 silly publish    { grunt: '~0.4.1',
+149 silly publish      'grunt-contrib-copy': '~0.4.0',
+149 silly publish      'grunt-contrib-concat': '~0.1.3',
+149 silly publish      'grunt-contrib-coffee': '~0.6.4',
+149 silly publish      'grunt-contrib-uglify': '~0.2.0',
+149 silly publish      'grunt-contrib-compass': '~0.1.3',
+149 silly publish      'grunt-contrib-jshint': '~0.3.0',
+149 silly publish      'grunt-contrib-cssmin': '~0.5.0',
+149 silly publish      'grunt-contrib-connect': '~0.2.0',
+149 silly publish      'grunt-contrib-clean': '~0.4.0',
+149 silly publish      'grunt-contrib-htmlmin': '~0.1.1',
+149 silly publish      'grunt-contrib-imagemin': '~0.1.2',
+149 silly publish      'grunt-contrib-watch': '~0.5.1',
+149 silly publish      'grunt-bower-requirejs': '~0.4.1',
+149 silly publish      'grunt-usemin': '~0.1.10',
+149 silly publish      'grunt-rev': '~0.1.0',
+149 silly publish      'grunt-karma': '~0.3.0',
+149 silly publish      'grunt-mocha': '~0.2.0',
+149 silly publish      'grunt-open': '~0.2.0',
+149 silly publish      matchdep: '~0.1.1',
+149 silly publish      'grunt-google-cdn': '~0.1.1',
+149 silly publish      'grunt-ngmin': '~0.0.2',
+149 silly publish      'grunt-concurrent': '~0.2.0',
+149 silly publish      'grunt-nodemon': '0.0.8',
+149 silly publish      'grunt-requirejs': '~0.3.5',
+149 silly publish      'grunt-svgmin': '~0.2.0',
+149 silly publish      'grunt-push-release': '~0.1.5' },
+149 silly publish   main: 'server',
+149 silly publish   scripts: { start: 'node server/server.js' },
+149 silly publish   engines: { node: '>= 0.10 < 0.11.0' },
+149 silly publish   readme: 'grunt-express-angular-mongo\n================================\n\nBootstrap app with Grunt, Bower, Expressjs, Angularjs, Requirejs, MongoDB + goodies\n\n## Goals\n\nThe goal of this project was to provide a working yeoman-based SPA (single page app) that includes the following things:\n\n* RequireJS\n* AngularJS, working properly with RequireJS\n* Working twitter bootstrap (as of 5/8/2013 getting bootstrap+angularJS to work together in yeoman is not working out-of-the-box) sitting alongside AngularJS\n* SASS\n* An embedded node.js server to provide the underlying server-side api for the SPA to call, that functions from within the `grunt dev` command and is available on the same host/port as the SPA code in that model\n\n## Prerequisites\n\n* Nodejs + NPM\n* You must have yeoman (including grunt and bower) installed.  This project assumes 1.0rc4 or later of yeoman `npm install -g yo`\n\n## Installation\n* Clone the git repository: `git clone https://github.com/JonnyBGod/grunt-express-angular-mongo _your_local_directory_name_`\n* `cd _your_local_directory_name_`\n\n## Getting Started\n\n* Install all denpendencies\n```bash\n$ npm install\n$ bower install\n```\n\n* Change all UPPER_CASE_SNAKE_NAMES\n```bash\n$ ./server/config.js //Change at least all "db" and "name".\n$ ./app/scripts/app.js //Change YOUR_ACCOUNT_HERE for your adwords account id.\n```\n\n* Substitute `./server/public.pem` and `./server/private.key` for your own certificate files (https://help.ubuntu.com/community/SSH/OpenSSH/Keys)\n\n* That should be it.  Run `grunt dev` and the app should come up and run at http://localhost:9000/ and https://localhost:9001 or whatever IP address you ran it on.\n\n## Grunt commands\n\n* Launch develepment server `grunt dev`\n\n* Launch production server for testing `grunt prod`\n\n* Build for production `grunt build`\n\n* Release\n```bash\n$ grunt bump\n$ //For now you have to commit yourself the full project\n$ git add .\n$ git commit -m \'your message\'\n$ git push origin\n```\n\n* Production server launch `NODE_ENV=production node server`\n\n## Some notes\n\nIf you find bugs/want to contribute, please create an issue on this project\n\n\n-----------------------------------\nReleased under a MIT-style license.',
+149 silly publish   readmeFilename: 'README.md',
+149 silly publish   _id: 'grunt-express-angular-mongo@0.0.8',
+149 silly publish   dist: { shasum: 'd3bfe6d649f98be8771cd89b29b2c987c9a5b73f' },
+149 silly publish   _from: '.' }
+150 error Error: This package has been marked as private
+150 error Remove the 'private' field from the package.json to publish it.
+150 error     at publish_ (/usr/local/lib/node_modules/npm/lib/publish.js:90:31)
+150 error     at Array.1 (/usr/local/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+150 error     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+150 error     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:14:28)
+150 error     at chain (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:20:5)
+150 error     at /usr/local/lib/node_modules/npm/lib/publish.js:59:5
+150 error     at /usr/local/lib/node_modules/npm/lib/cache.js:809:14
+150 error     at /usr/local/lib/node_modules/npm/node_modules/lockfile/lockfile.js:55:41
+150 error     at Object.oncomplete (fs.js:107:15)
+151 error If you need help, you may report this log at:
+151 error     <http://github.com/isaacs/npm/issues>
+151 error or email it to:
+151 error     <npm-@googlegroups.com>
+152 error System Darwin 11.4.2
+153 error command "node" "/usr/local/bin/npm" "publish" "--tag" "Release v%VERSION%"
+154 error cwd /Users/joaoribeiro/Documents/Projects/grunt-express-angular-mongo
+155 error node -v v0.10.15
+156 error npm -v 1.3.5
+157 verbose exit [ 1, true ]

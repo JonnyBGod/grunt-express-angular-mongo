@@ -48,13 +48,20 @@ $ ./app/scripts/app.js //Change YOUR_ACCOUNT_HERE for your adwords account id.
 
 * Build for production `grunt build`
 
-* Release
+* Release `grunt push`
 ```bash
-$ grunt bump
-$ //For now you have to commit yourself the full project
-$ git add .
-$ git commit -m 'your message'
-$ git push origin
+// Aditional release commands
+
+$ grunt push:patch //version 0.0.2
+$ grunt push:minor //version 0.1.0
+$ grunt push:major //version 1.0.0
+$ grunt push:git //version 0.0.1-1
+
+$ grunt bump-only:minor
+$ grunt changelog
+$ grunt push-commit
+$ grunt push-release //This will do a full push and publish to npm even if you have configured npm option to false
+$ grunt push-publish //Just publishes to NPM overriding (npm option: false)
 ```
 
 * Production server launch `NODE_ENV=production node server`

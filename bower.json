@@ -1,6 +1,6 @@
 {
   "name": "grunt-express-angular-mongo",
-  "version": "0.0.7",
+  "version": "0.1.1",
   "main": "server/server.js",
   "ignore": [
     "**/.*",
