@@ -1,5 +1,5 @@
 {
-  "name": "yoeman-express-angular-fullstack",
+  "name": "grunt-express-angular-fullstack",
   "description": "Bootstrap app with Grunt, Bower, Expressjs, Angularjs, Requirejs + goodies",
   "version": "0.0.5",
   "author": "Joao Ribeiro",
