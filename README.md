@@ -20,7 +20,7 @@ The goal of this project was to provide a working yeoman-based SPA (single page 
 
 ## Installation
 * Clone the git repository: `git clone https://github.com/JonnyBGod/yoeman-express-angular-fullstack _your_local_directory_name_`
-* `cd _your_local_directory_name_`;
+* `cd _your_local_directory_name_`
 
 ## Getting Started
 
