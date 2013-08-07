@@ -54,7 +54,7 @@ $ git push origin
 
 ## Some notes
 
-* If you find bugs/want to contribute, please create an issue on this project
+If you find bugs/want to contribute, please create an issue on this project
 
 
 -----------------------------------
