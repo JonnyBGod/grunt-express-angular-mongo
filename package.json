@@ -2,7 +2,7 @@
   "name": "grunt-express-angular-mongo",
   "description": "Bootstrap app with Grunt, Bower, Expressjs, Angularjs, Requirejs, MongoDB + goodies",
   "keywords": ["grunt", "bower", "express", "angular", "requirejs", "mongo", "mean stack", "passport", "socketio", "spdy"],
-  "version": "0.0.5",
+  "version": "0.0.6",
   "author": "Joao Ribeiro",
   "private": true,
   "dependencies": {
@@ -14,7 +14,6 @@
     "i18n": "~0.4.1",
     "mongoose": "~3.6.15",
     "mongoose-double": "~0.0.1",
-    "newrelic": "~0.9.22",
     "passport": "~0.1.17",
     "passport-local": "~0.1.6",
     "passport-facebook": "~0.1.5",

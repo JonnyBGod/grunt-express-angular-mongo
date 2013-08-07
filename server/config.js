@@ -9,38 +9,38 @@ module.exports = {
       name: 'NAME'
     },
     facebook: {
-      clientID: "clientID",
-      clientSecret: "clientSecret",
+      clientID: "CLIENT_ID",
+      clientSecret: "CLIENT_SECRET",
       callbackURL: "/auth/facebook/callback"
     },
     twitter: {
-      clientID: "clientID",
-      clientSecret: "clientSecret",
+      clientID: "CLIENT_ID",
+      clientSecret: "CLIENT_SECRET",
       callbackURL: "/auth/twitter/callback"
     },
     google: {
-      clientID: "clientID",
-      clientSecret: "clientSecret",
+      clientID: "CLIENT_ID",
+      clientSecret: "CLIENT_SECRET",
       callbackURL: "/auth/google/callback"
     },
     linkedin: {
-      clientID: "clientID",
-      clientSecret: "clientSecret",
+      clientID: "CLIENT_ID",
+      clientSecret: "CLIENT_SECRET",
       callbackURL: "/auth/linkedin/callback"
     },
     foursquare: {
-      clientID: "clientID",
-      clientSecret: "clientSecret",
+      clientID: "CLIENT_ID",
+      clientSecret: "CLIENT_SECRET",
       callbackURL: "/auth/foursquare/callback"
     },
     yahoo: {
-      clientID: "clientID",
-      clientSecret: "clientSecret",
+      clientID: "CLIENT_ID",
+      clientSecret: "CLIENT_SECRET",
       callbackURL: "/auth/yahoo/callback"
     },
     windowslive: {
-      clientID: "clientID",
-      clientSecret: "clientSecret",
+      clientID: "CLIENT_ID",
+      clientSecret: "CLIENT_SECRET",
       callbackURL: "/auth/windowslive/callback"
     }
   },
@@ -51,38 +51,38 @@ module.exports = {
       name: 'NAME'
     },
     facebook: {
-      clientID: "clientID",
-      clientSecret: "clientSecret",
+      clientID: "CLIENT_ID",
+      clientSecret: "CLIENT_SECRET",
       callbackURL: "/auth/facebook/callback"
     },
     twitter: {
-      clientID: "clientID",
-      clientSecret: "clientSecret",
+      clientID: "CLIENT_ID",
+      clientSecret: "CLIENT_SECRET",
       callbackURL: "/auth/twitter/callback"
     },
     google: {
-      clientID: "clientID",
-      clientSecret: "clientSecret",
+      clientID: "CLIENT_ID",
+      clientSecret: "CLIENT_SECRET",
       callbackURL: "/auth/google/callback"
     },
     linkedin: {
-      clientID: "clientID",
-      clientSecret: "clientSecret",
+      clientID: "CLIENT_ID",
+      clientSecret: "CLIENT_SECRET",
       callbackURL: "/auth/linkedin/callback"
     },
     foursquare: {
-      clientID: "clientID",
-      clientSecret: "clientSecret",
+      clientID: "CLIENT_ID",
+      clientSecret: "CLIENT_SECRET",
       callbackURL: "/auth/foursquare/callback"
     },
     yahoo: {
-      clientID: "clientID",
-      clientSecret: "clientSecret",
+      clientID: "CLIENT_ID",
+      clientSecret: "CLIENT_SECRET",
       callbackURL: "/auth/yahoo/callback"
     },
     windowslive: {
-      clientID: "clientID",
-      clientSecret: "clientSecret",
+      clientID: "CLIENT_ID",
+      clientSecret: "CLIENT_SECRET",
       callbackURL: "/auth/windowslive/callback"
     }
   }

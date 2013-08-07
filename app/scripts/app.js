@@ -8,7 +8,7 @@ define(['angular', 'analytics', 'filters'], function (angular) {
 	            html5Mode(true).hashPrefix('!');
 	    }])
 	    .config(['AnalyticsProvider', function(AnalyticsProvider) {
-			AnalyticsProvider.account = 'YOUR ACCOUNT HERE';
+			AnalyticsProvider.account = 'YOUR_ACCOUNT_HERE';
 		}])
 		.config(['$routeProvider', function($routeProvider) {
 			$routeProvider

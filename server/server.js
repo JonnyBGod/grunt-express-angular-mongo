@@ -1,8 +1,6 @@
-require('newrelic');
 /**
  * Module dependencies.
  */
-global.dev_env = false;
 var SITE_SECRET = 'anything',
     tenDays = 864000000,
     workers = [];
@@ -34,8 +32,8 @@ global.socket;
 
 // Load configurations
 // if test env, load example file
-var env = process.env.NODE_ENV || 'production',
-    config = require('./config')[env];
+var env = process.env.NODE_ENV || 'production';
+global.config = require('./config')[env];
 
 mongoose.connect(config.db, {
     server: {
@@ -329,7 +327,7 @@ io.sockets.on('connection', function (soc) {
 
 // Start server
 
-if(cluster.isMaster && !dev_env){
+if(cluster.isMaster && env == 'production'){
     console.log('Master Working Now!');
     for (var i = 0; i < numCPUs; i++) {
         var worker = cluster.fork();

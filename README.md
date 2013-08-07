@@ -30,9 +30,13 @@ $ npm install
 $ bower install
 ```
 
-* Change all UPPER_CASE_SNAKE_NAMES (ids, passwords, names, etc..)
+* Change all UPPER_CASE_SNAKE_NAMES
+```bash
+$ ./server/config.js //Change at least all "db" and "name".
+$ ./app/scripts/app.js //Change YOUR_ACCOUNT_HERE for your adwords account id.
+```
 
-* Substitute public.pem and private.pem for your own certificate files (https://help.ubuntu.com/community/SSH/OpenSSH/Keys)
+* Substitute `./server/public.pem` and `./server/private.key` for your own certificate files (https://help.ubuntu.com/community/SSH/OpenSSH/Keys)
 
 * That should be it.  Run `grunt dev` and the app should come up and run at http://localhost:9000/ and https://localhost:9001 or whatever IP address you ran it on.
 
