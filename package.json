@@ -2,9 +2,9 @@
   "name": "grunt-express-angular-mongo",
   "description": "Bootstrap app with Grunt, Bower, Expressjs, Angularjs, Requirejs, MongoDB + goodies",
   "keywords": ["grunt", "bower", "express", "angular", "requirejs", "mongo", "mean stack", "passport", "socketio", "spdy"],
-  "version": "0.1.4",
+  "version": "0.1.5",
   "author": "Joao Ribeiro",
-  "private": true,
+  "private": false,
   "dependencies": {
     "connect-flash": "~0.1.1",
     "connect-mongostore": "~0.0.7",
