@@ -388,13 +388,13 @@ module.exports = function (grunt) {
       options: {
         files: ['package.json', 'bower.json'],
         updateConfigs: [],
-        commit: true,
+        commit: false,
         commitMessage: 'Release v%VERSION%',
         commitFiles: ['-a'],
         createTag: true,
         tagName: 'v%VERSION%',
         tagMessage: 'Version %VERSION%',
-        push: true,
+        push: false,
         pushTo: 'origin',
         gitDescribeOptions: '--tags --always --abbrev=1 --dirty=-d' // options to use with '$ git describe'
       }
