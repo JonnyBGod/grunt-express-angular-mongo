@@ -50,13 +50,13 @@ $ ./app/scripts/app.js //Change YOUR_ACCOUNT_HERE for your adwords account id.
 
 * Release `grunt push`
 ```bash
-// Aditional release commands
-
+$ // Aditional release commands
+$
 $ grunt push:patch //version 0.0.2
 $ grunt push:minor //version 0.1.0
 $ grunt push:major //version 1.0.0
 $ grunt push:git //version 0.0.1-1
-
+$
 $ grunt bump-only:minor
 $ grunt changelog
 $ grunt push-commit
