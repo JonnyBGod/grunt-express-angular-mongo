@@ -73,3 +73,6 @@ If you find bugs/want to contribute, please create an issue on this project
 
 -----------------------------------
 Released under a MIT-style license.
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/JonnyBGod/grunt-express-angular-mongo/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
